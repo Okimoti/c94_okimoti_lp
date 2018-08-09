@@ -1,0 +1,28 @@
+{
+  "name": "c94-lp",
+  "version": "1.0.0",
+  "description": "Nuxt.js project",
+  "author": "石岡将明 <ishioka0528@icloud.com>",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "dependencies": {
+    "nuxt-edge": "^2.0.0-25561135.3b5a470"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "element-ui": "^2.4.5",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.1.0"
+  }
+}
